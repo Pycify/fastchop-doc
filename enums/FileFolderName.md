@@ -1,0 +1,12 @@
+# FileFolderName
+
+| Key | Value |
+|-----|--------|
+| `PROFILE_PICTURE` | `profile_picture` |
+| `VENDOR_BUSINESS` | `vendor_business` |
+| `VENDOR_VERIFICATION` | `vendor_verification` |
+| `MEAL_IMAGE` | `meal_image` |
+| `OPTION_ITEM` | `option_item` |
+| `MEAL_PACK` | `meal_pack` |
+| `REPORTS` | `reports` |
+| `RIDER_VERIFICATION` | `verification` |

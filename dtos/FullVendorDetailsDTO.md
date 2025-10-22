@@ -1,0 +1,29 @@
+# FullVendorDetailsDTO
+
+## Properties
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `id` | string | - |
+| `walletId` | string | - |
+| `ownerId` | string | - |
+| `name` | string | - |
+| `about` | string | - |
+| `phone` | string \| null | - |
+| `email` | string \| null | - |
+| `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
+| `isOpenStatus` | boolean | - |
+| `isFavourite` | boolean \| undefined | - |
+| `verificationState` | string | - |
+| `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) | - |
+| `shareUrl` | string \| null | - |
+| `ratings` | [VendorRating](../interfaces/VendorRating.md) | - |
+| `verifiedAt` | DateTime \| null | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |
+| `businessLocation` | [LocationDTO](../dtos/LocationDTO.md) \| null | - |
+| `hours` | BusinessHourDTO[] \| null | - |
+| `images` | MediaDTO[] \| null | - |
+| `rating` | data.reviews.length > 0 | - |
+| `base` | 5, | - |
+| `totalReviews` | data.reviews.length, | - |
