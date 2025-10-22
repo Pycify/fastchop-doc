@@ -53,5 +53,5 @@ pnpm run generate:route-docs
 
 ---
 
-**Maintained by:** `FastChop Dev Team`
+**Maintained by:** [Pycify](https://github.com/Pycify)
 _Last updated automatically — do not edit manually._
