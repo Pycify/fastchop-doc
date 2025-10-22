@@ -1,4 +1,3 @@
-```markdown
 # 📘 FastChop API Documentation
 
 Welcome to the **FastChop API Documentation** — this directory contains automatically generated reference files for all **API routes**, **DTOs**, **interfaces**, and **enums** used across the backend.
@@ -15,6 +14,7 @@ Welcome to the **FastChop API Documentation** — this directory contains automa
 ---
 
 ## 🧩 Structure
+
 ```
 
 docs/
@@ -25,7 +25,7 @@ docs/
 ┣ 📁 interfaces/ → Documentation for Interfaces
 ┗ 📁 enums/ → Enum references
 
-````
+```
 
 ---
 
@@ -39,7 +39,7 @@ pnpm run generate:dto-docs
 
 # Generate Route-to-DTO mapping
 pnpm run generate:route-docs
-````
+```
 
 > ⚙️ Each script parses TypeScript definitions and AdonisJS route/controller files to keep documentation always in sync with your code.
 
