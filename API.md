@@ -31,4 +31,4 @@ User Login Response now includes
 
 1. bonusBalance: string
 
-Refer to [OrderDTO](https://github.com/Pycify/fastchop-doc/blob/master/dtos/OrderDTO.md), [UserDetailDTO](https://github.com/Pycify/fastchop-doc/blob/master/dtos/UserDetailDTO.md) for details
+Refer to [OrderDTO](dtos/OrderDTO.md), [UserDetailDTO](dtos/UserDetailDTO.md) for details
