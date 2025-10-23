@@ -20,6 +20,7 @@ Welcome to the **FastChop API Documentation** — this directory contains automa
 docs/
 ┣ 📄 README.md → You are here
 ┣ 📄 routes.md → API route documentation
+┣ 📄 API.md → Changes Made to the API
 ┣ 📄 index.md → Global DTO & Interface index
 ┣ 📁 dtos/ → Generated documentation for Data Transfer Objects
 ┣ 📁 interfaces/ → Documentation for Interfaces
