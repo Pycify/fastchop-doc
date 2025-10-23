@@ -15,11 +15,13 @@
 | `subtotal` | number | - |
 | `deliveryFee` | number | - |
 | `totalAmount` | number | - |
+| `discountAmount` | number | - |
 | `currency` | string | - |
 | `preparationTime` | string \| null | - |
 | `specialInstructions` | string \| null | - |
 | `business` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) | - |
 | `deliveryLocation` | [LocationDTO](../dtos/LocationDTO.md) \| null | - |
+| `coupon` | [CouponDTO](../dtos/CouponDTO.md) \| null | - |
 | `items` | [OrderItemDTO](../dtos/OrderItemDTO.md)[] | - |
 | `orderCancellation` | [OrderCancellationDTO](../dtos/OrderCancellationDTO.md) \| null | - |
 | `orderCompletion` | [OrderCompletionDTO](../dtos/OrderCompletionDTO.md) \| null | - |

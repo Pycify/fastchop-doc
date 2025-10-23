@@ -86,6 +86,27 @@
 ### PATCH /api/cart/:id/note
 - Returns: —
 
+### POST /api/coupons/validate
+- Returns: ⚠️ CouponValidationDTO
+          isValid: validation.isValid,
+          couponId: validation.coupon?.id,
+          discountAmount: validation.discountAmount,
+          finalAmount: validation.finalAmount,
+          message: validation.message,
+        }) (not documented)
+
+### GET /api/coupons/my-usage
+- Returns: [CouponUsageDTO](./dtos/CouponUsageDTO.md)
+
+### GET /api/coupons/:id
+- Returns: [CouponDTO](./dtos/CouponDTO.md)
+
+### PUT /api/coupons/:id
+- Returns: [CouponDTO](./dtos/CouponDTO.md)
+
+### POST /api/coupons/:id/cancel
+- Returns: [CouponDTO](./dtos/CouponDTO.md)
+
 ### POST /api/favourites/toggle
 - Returns: —
 
@@ -265,4 +286,13 @@
 
 ### POST /api/wallet/withdraw
 - Returns: —
+
+### POST /api/wallet/bank-account
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
+
+### GET /api/wallet/bank-account
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
+
+### PATCH /api/wallet/bank-account
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
 
