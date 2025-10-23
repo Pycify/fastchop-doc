@@ -11,7 +11,7 @@ Coupon Usage DTO
 | `couponCode` | string | - |
 | `user` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
 | `orderId` | string | - |
-| `orderCode` | string | - |
+| `orderNumber` | string | - |
 | `discountAmount` | number | - |
 | `unit` | [CouponUnit](../enums/CouponUnit.md) | Enum: `NGN`, `%` |
 | `createdAt` | DateTime | - |

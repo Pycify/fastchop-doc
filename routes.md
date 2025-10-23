@@ -65,9 +65,6 @@
 ### GET /api/business/list-all
 - Returns: —
 
-### POST /api/cart/add
-- Returns: —
-
 ### GET /api/cart/index
 - Returns: —
 
@@ -226,6 +223,12 @@
 
 ### GET /api/order/:id
 - Returns: [OrderDTO](./dtos/OrderDTO.md)
+
+### GET /api/referrals//stats
+- Returns: ⚠️ ReferralStatsDTO
+          referralCode: user.referralCode,
+          ...stats,
+        }) (not documented)
 
 ### POST /api/reports/report-business
 - Returns: —

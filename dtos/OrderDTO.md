@@ -16,6 +16,7 @@
 | `deliveryFee` | number | - |
 | `totalAmount` | number | - |
 | `discountAmount` | number | - |
+| `referralBonusUsed` | number | - |
 | `currency` | string | - |
 | `preparationTime` | string \| null | - |
 | `specialInstructions` | string \| null | - |
