@@ -1,4 +1,32 @@
-# 23rd October 2023
+## 24th October 2023
+
+**ADMIN BULK COMMUNICATIONS**
+
+- POST /api/admin/bulk-communications
+- GET /api/admin/bulk-communications
+- GET /api/admin/bulk-communications/:id
+- GET /api/admin/bulk-communications/:id/recipients
+- POST /api/admin/bulk-communications/:id/retry-failed
+
+**ADMIN USER MANAGEMENT**
+
+- GET /api/admin/user-management/user
+- GET /api/admin/user-management/user/:id
+- GET /api/admin/user-management/order/:id
+- GET /api/admin/user-management/transaction/:id
+
+**REFERRAL**
+
+- GET /api/referrals/:id
+- GET /api/referrals/stats
+- GET /api/referrals
+- GET /api/referrals/admin/all
+- GET /api/referrals/:code/stats
+- GET /api/referrals/:code/referred-users
+
+---
+
+## 23rd October 2023
 
 **WALLET**
 
@@ -20,15 +48,20 @@
 
 - GET /api/referrals/stats
 - GET /api/referrals
-- GET /api/referrals/admin
 
-Order Checkout Payload now includes
+---
 
-1. couponCode: string?
-2. useReferralBonus: boolean?
+### Order Checkout Payload
 
-User Login Response now includes
+Now includes:
 
-1. bonusBalance: string
+1. `couponCode: string?`
+2. `useReferralBonus: boolean?`
 
-Refer to [OrderDTO](dtos/OrderDTO.md), [UserDetailDTO](dtos/UserDetailDTO.md) for details
+### User Login Response
+
+Now includes:
+
+1. `bonusBalance: string`
+
+> Refer to [OrderDTO](dtos/OrderDTO.md) and [UserDetailDTO](dtos/UserDetailDTO.md) for detailed response schema.

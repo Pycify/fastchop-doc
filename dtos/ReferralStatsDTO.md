@@ -7,6 +7,7 @@ Referral Stats DTO
 | Property | Type | Description |
 |----------|------|-------------|
 | `referralCode` | string | - |
+| `referrer` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
 | `currency` | string | - |
 | `totalReferred` | number | - |
 | `completedReferrals` | number | - |
@@ -18,3 +19,7 @@ Referral Stats DTO
 | `completedReferrals` | number | - |
 | `pendingReferrals` | number | - |
 | `totalEarnings` | number | - |
+| `user` | User | - |
+| `id` | data.user.id, | - |
+| `email` | data.user.email, | - |
+| `name` | data.user.fullName, | - |

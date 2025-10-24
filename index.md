@@ -6,6 +6,8 @@
 - [AnalyticsDTO](./dtos/AnalyticsDTO.md)
 - [TopSellingMealDTO](./dtos/TopSellingMealDTO.md)
 - [BiometricDeviceDTO](./dtos/BiometricDeviceDTO.md)
+- [BulkCommunicationDTO](./dtos/BulkCommunicationDTO.md)
+- [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md)
 - [VendorBusinessDTO](./dtos/VendorBusinessDTO.md)
 - [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md)
 - [BusinessHourDTO](./dtos/BusinessHourDTO.md)
@@ -46,6 +48,7 @@
 - [OrderStartedPreparationDTO](./dtos/OrderStartedPreparationDTO.md)
 - [BankAccountDTO](./dtos/BankAccountDTO.md)
 - [ReferralDTO](./dtos/ReferralDTO.md)
+- [ReferredUserDTO](./dtos/ReferredUserDTO.md)
 - [ReferralStatsDTO](./dtos/ReferralStatsDTO.md)
 - [ReportDTO](./dtos/ReportDTO.md)
 - [ReportReasonDTO](./dtos/ReportReasonDTO.md)
@@ -60,6 +63,7 @@
 - [SavedLocationDTO](./dtos/SavedLocationDTO.md)
 - [UserDetailDTO](./dtos/UserDetailDTO.md)
 - [UserDTO](./dtos/UserDTO.md)
+- [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)
 - [RiderVerificationDTO](./dtos/RiderVerificationDTO.md)
 
 ## Interfaces
@@ -136,4 +140,8 @@
 - [CouponBonusType](./enums/CouponBonusType.md)
 - [CouponUnit](./enums/CouponUnit.md)
 - [CouponStatus](./enums/CouponStatus.md)
+- [CommunicationChannel](./enums/CommunicationChannel.md)
+- [CommunicationStatus](./enums/CommunicationStatus.md)
+- [CommunicationRecipientStatus](./enums/CommunicationRecipientStatus.md)
+- [CommunicationUserTargetType](./enums/CommunicationUserTargetType.md)
 - [ReferralStatus](./enums/ReferralStatus.md)

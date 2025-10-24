@@ -20,6 +20,15 @@
 ### POST /api/admin/logout
 - Returns: —
 
+### GET /api/admin/bulk-communications/:id
+- Returns: —
+
+### GET /api/admin/bulk-communications/:id/recipients
+- Returns: —
+
+### POST /api/admin/bulk-communications/:id/retry-failed
+- Returns: —
+
 ### GET /api/admin/dashboard/analytics
 - Returns: —
 
@@ -42,6 +51,15 @@
 - Returns: —
 
 ### GET /api/admin/dashboard/top-riders
+- Returns: —
+
+### GET /api/admin/user-management/:id
+- Returns: —
+
+### GET /api/admin/user-management/:id
+- Returns: —
+
+### GET /api/admin/user-management/:id
 - Returns: —
 
 ### GET /api/analytics/top-selling-meals
@@ -224,9 +242,13 @@
 ### GET /api/order/:id
 - Returns: [OrderDTO](./dtos/OrderDTO.md)
 
+### GET /api/referrals/:id
+- Returns: [ReferralDTO](./dtos/ReferralDTO.md)
+
 ### GET /api/referrals//stats
 - Returns: ⚠️ ReferralStatsDTO
           referralCode: user.referralCode,
+          user: user,
           ...stats,
         }) (not documented)
 

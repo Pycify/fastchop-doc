@@ -8,6 +8,7 @@ Referral DTO
 |----------|------|-------------|
 | `id` | string | - |
 | `status` | [ReferralStatus](../enums/ReferralStatus.md) | Enum: `pending`, `completed`, `expired` |
+| `referralCode` | string | - |
 | `rewardAmount` | number | - |
 | `currency` | string | - |
 | `orderId` | string \| null | - |
