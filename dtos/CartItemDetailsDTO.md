@@ -10,8 +10,8 @@
 | `quantity` | number | - |
 | `note` | string \| null | - |
 | `totalPrice` | number | - |
-| `mealPack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) | - |
-| `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) | - |
+| `mealPack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) \| null | - |
+| `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) \| null | - |
 | `mealOptionDisplay` | [MealOptionDisplay](../interfaces/MealOptionDisplay.md)[] | - |
 | `currency` | string | - |
 | `createdAt` | DateTime | - |

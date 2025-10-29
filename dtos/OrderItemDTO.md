@@ -12,8 +12,8 @@
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `meal` | [MiniMealDTO](../dtos/MiniMealDTO.md) | - |
-| `pack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) | - |
-| `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) | - |
+| `pack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) \| null | - |
+| `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) \| null | - |
 | `options` | [MiniOrderItemOptionDTO](../dtos/MiniOrderItemOptionDTO.md)[] | - |
 | `name` | data.mealPack.name, | - |
 | `quantity` | data.quantity, | - |
