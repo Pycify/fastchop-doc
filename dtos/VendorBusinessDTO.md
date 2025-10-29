@@ -12,6 +12,7 @@
 | `phone` | string \| null | - |
 | `email` | string \| null | - |
 | `isOpenStatus` | boolean | - |
+| `isDefault` | boolean | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `shareUrl` | string \| null | - |
 | `createdAt` | DateTime | - |

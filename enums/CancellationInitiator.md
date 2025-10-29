@@ -2,6 +2,6 @@
 
 | Key | Value |
 |-----|--------|
-| `ADMIn` | `admin` |
+| `ADMIN` | `admin` |
 | `VENDOR` | `vendor` |
 | `CUSTOMER` | `customer` |

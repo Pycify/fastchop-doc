@@ -309,9 +309,6 @@
 ### POST /api/wallet/create-pin
 - Returns: —
 
-### POST /api/wallet/withdraw
-- Returns: —
-
 ### POST /api/wallet/bank-account
 - Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
 

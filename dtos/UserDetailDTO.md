@@ -18,6 +18,6 @@
 | `bonusBalance` | string | - |
 | `hasWalletPin` | boolean | - |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) \| undefined | - |
-| `storeStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
-| `businessId` | string \| null | - |
+| `storeStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null \| undefined | - |
+| `businessId` | string \| null \| undefined | - |
 | `default` | return new UserDetailDTO(user) | - |
