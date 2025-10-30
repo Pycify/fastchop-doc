@@ -13,6 +13,7 @@
 | `email` | string \| null | - |
 | `isOpenStatus` | boolean | - |
 | `isDefault` | boolean | - |
+| `isCurrentSelected` | boolean | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `shareUrl` | string \| null | - |
 | `createdAt` | DateTime | - |

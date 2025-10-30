@@ -13,6 +13,8 @@
 | `email` | string \| null | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `isOpenStatus` | boolean | - |
+| `isDefault` | boolean | - |
+| `isCurrentSelected` | boolean | - |
 | `isFavourite` | boolean \| undefined | - |
 | `verificationState` | string | - |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) | - |

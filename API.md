@@ -1,3 +1,19 @@
+## 30th October 2025
+
+**BUSINESS STORES**
+
+- POST /api/business/stores
+- PUT /api/business/stores/:id/switch
+- GET /api/business/stores/:id/list-all
+
+**STORE MANAGERS**
+
+- POST /api/business/stores/managers/add
+- GET /api/business/stores/managers
+- DELETE /api/business/stores/managers/:id
+
+---
+
 ## 24th October 2023
 
 **ADMIN BULK COMMUNICATIONS**

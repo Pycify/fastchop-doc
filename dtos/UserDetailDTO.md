@@ -9,7 +9,7 @@
 | `email` | string | - |
 | `phone` | string \| null | - |
 | `registerSource` | [RegisterSource](../enums/RegisterSource.md) | Enum: `standard`, `google`, `apple` |
-| `userType` | [UserType](../enums/UserType.md) | Enum: `user`, `vendor`, `deliverer`, `admin` |
+| `userType` | [UserType](../enums/UserType.md) | Enum: `user`, `vendor`, `manager`, `deliverer`, `admin` |
 | `referralCode` | string \| undefined | - |
 | `emailVerifiedAt` | DateTime \| null | - |
 | `createdAt` | DateTime | - |
