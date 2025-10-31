@@ -19,6 +19,5 @@
 | `image` | [MediaDTO](../dtos/MediaDTO.md) | - |
 | `packs` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md)[] | - |
 | `optionGroups` | [MiniMealOptionDTO](../dtos/MiniMealOptionDTO.md)[] | - |
-| `optionItems` | [MiniMealOptionItemDTO](../dtos/MiniMealOptionItemDTO.md)[] | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

@@ -11,3 +11,4 @@
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `itemsCount` | number | - |
+| `optionItems` | [MiniMealOptionItemDTO](../dtos/MiniMealOptionItemDTO.md)[] | - |

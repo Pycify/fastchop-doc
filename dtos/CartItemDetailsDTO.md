@@ -10,6 +10,7 @@
 | `quantity` | number | - |
 | `note` | string \| null | - |
 | `totalPrice` | number | - |
+| `mealImage` | [MediaDTO](../dtos/MediaDTO.md) | - |
 | `mealPack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) \| null | - |
 | `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) \| null | - |
 | `mealOptionDisplay` | [MealOptionDisplay](../interfaces/MealOptionDisplay.md)[] | - |
