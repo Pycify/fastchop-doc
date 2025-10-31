@@ -11,12 +11,14 @@
 | `about` | string | - |
 | `phone` | string \| null | - |
 | `email` | string \| null | - |
+| `ownerInfo` | [UserDTO](../dtos/UserDTO.md) | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `isOpenStatus` | boolean | - |
 | `isDefault` | boolean | - |
 | `isCurrentSelected` | boolean | - |
 | `isFavourite` | boolean \| undefined | - |
 | `verificationState` | string | - |
+| `storeStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) | - |
 | `shareUrl` | string \| null | - |
 | `ratings` | [VendorRating](../interfaces/VendorRating.md) | - |

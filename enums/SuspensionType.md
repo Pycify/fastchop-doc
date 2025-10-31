@@ -5,4 +5,5 @@
 | `USER_ACCOUNT` | `user_account` |
 | `RIDER_ACCOUNT` | `rider_account` |
 | `VENDOR_ACCOUNT` | `vendor_account` |
+| `MANAGER_ACCOUNT` | `manager_account` |
 | `VENDOR_BUSINESS` | `vendor_business` |

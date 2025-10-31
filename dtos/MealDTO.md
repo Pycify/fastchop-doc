@@ -13,11 +13,12 @@
 | `isFavourite` | boolean | - |
 | `servingSize` | string | - |
 | `category` | [MealCategoryDTO](../dtos/MealCategoryDTO.md) | - |
-| `createdAt` | DateTime | - |
-| `updatedAt` | DateTime | - |
+| `flag` | [MiniMealFlagDTO](../dtos/MiniMealFlagDTO.md) \| null | - |
 | `business` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) | - |
 | `mealType` | [MiniMealTypeDTO](../dtos/MiniMealTypeDTO.md) | - |
 | `image` | [MediaDTO](../dtos/MediaDTO.md) | - |
 | `packs` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md)[] | - |
 | `optionGroups` | [MiniMealOptionDTO](../dtos/MiniMealOptionDTO.md)[] | - |
 | `optionItems` | [MiniMealOptionItemDTO](../dtos/MiniMealOptionItemDTO.md)[] | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |

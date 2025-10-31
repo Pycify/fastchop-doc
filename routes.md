@@ -62,6 +62,12 @@
 ### GET /api/admin/user-management/:id
 - Returns: —
 
+### POST /api/admin/user-management/suspend
+- Returns: —
+
+### POST /api/admin/user-management/reactivate
+- Returns: —
+
 ### GET /api/analytics/top-selling-meals
 - Returns: —
 
@@ -86,29 +92,11 @@
 ### GET /api/business/stores/:id/list-all
 - Returns: —
 
-### PATCH /api/business/:id/details
-- Returns: —
-
-### PATCH /api/business/:id/location
-- Returns: —
-
-### PATCH /api/business/:id/operation
-- Returns: —
-
 ### PATCH /api/business/:id/toggle-is-open-status
 - Returns: —
 
 ### PUT /api/business/:id/switch
 - Returns: [VendorBusinessDTO](./dtos/VendorBusinessDTO.md)
-
-### POST /api/business/managers/add
-- Returns: —
-
-### GET /api/business/managers
-- Returns: —
-
-### DELETE /api/business/managers/:id
-- Returns: —
 
 ### GET /api/cart/index
 - Returns: —

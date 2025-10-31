@@ -15,6 +15,7 @@
 | `referralCount` | number | - |
 | `emailVerifiedAt` | DateTime \| null | - |
 | `totalOrders` | number | - |
+| `accountStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) \| undefined | - |
 | `branches` | number \| undefined | - |
 | `business` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) \| undefined | - |

@@ -12,6 +12,7 @@
 | `userType` | [UserType](../enums/UserType.md) | Enum: `user`, `vendor`, `manager`, `deliverer`, `admin` |
 | `referralCode` | string \| undefined | - |
 | `emailVerifiedAt` | DateTime \| null | - |
+| `accountStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime \| null | - |
 | `userBalance` | string | - |
