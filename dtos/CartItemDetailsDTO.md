@@ -5,6 +5,7 @@
 | Property | Type | Description |
 |----------|------|-------------|
 | `id` | string | - |
+| `mealId` | string | - |
 | `mealName` | string | - |
 | `mealPreparationTime` | string \| null | - |
 | `quantity` | number | - |

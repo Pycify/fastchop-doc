@@ -251,6 +251,21 @@
 ### POST /api/misc/send-email
 - Returns: —
 
+### GET /api/notifications/unread-count
+- Returns: —
+
+### PATCH /api/notifications/:id/read
+- Returns: [NotificationDTO](./dtos/NotificationDTO.md)
+
+### PATCH /api/notifications/read-all
+- Returns: —
+
+### DELETE /api/notifications/:id
+- Returns: —
+
+### DELETE /api/notifications/clear-read
+- Returns: —
+
 ### GET /api/order/index
 - Returns: —
 
