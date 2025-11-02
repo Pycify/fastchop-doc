@@ -30,28 +30,28 @@
 - Returns: —
 
 ### GET /api/admin/dashboard/analytics
-- Returns: —
+- Returns: [AdminAnalyticsDTO](./dtos/AdminAnalyticsDTO.md)
 
 ### GET /api/admin/dashboard/user-growth-trends
-- Returns: —
+- Returns: [UserGrowthTrendsSummaryDTO](./dtos/UserGrowthTrendsSummaryDTO.md)
 
 ### GET /api/admin/dashboard/order-performance
-- Returns: —
+- Returns: [OrderPerformanceSummaryDTO](./dtos/OrderPerformanceSummaryDTO.md)
 
 ### GET /api/admin/dashboard/referral-payout
-- Returns: —
+- Returns: [ReferralPayoutSummaryDTO](./dtos/ReferralPayoutSummaryDTO.md)
 
 ### GET /api/admin/dashboard/revenue
-- Returns: —
+- Returns: [RevenueSummaryDTO](./dtos/RevenueSummaryDTO.md)
 
 ### GET /api/admin/dashboard/top-buyers
-- Returns: —
+- Returns: [TopBuyerDTO](./dtos/TopBuyerDTO.md)
 
 ### GET /api/admin/dashboard/top-vendors
-- Returns: —
+- Returns: [TopVendorDTO](./dtos/TopVendorDTO.md)
 
 ### GET /api/admin/dashboard/top-riders
-- Returns: —
+- Returns: [TopRiderDTO](./dtos/TopRiderDTO.md)
 
 ### GET /api/admin/user-management/:id
 - Returns: [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)

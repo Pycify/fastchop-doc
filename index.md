@@ -3,6 +3,13 @@
 ## DTOs
 
 - [AdminAnalyticsDTO](./dtos/AdminAnalyticsDTO.md)
+- [OrderPerformanceSummaryDTO](./dtos/OrderPerformanceSummaryDTO.md)
+- [ReferralPayoutSummaryDTO](./dtos/ReferralPayoutSummaryDTO.md)
+- [RevenueSummaryDTO](./dtos/RevenueSummaryDTO.md)
+- [TopRiderDTO](./dtos/TopRiderDTO.md)
+- [TopBuyerDTO](./dtos/TopBuyerDTO.md)
+- [TopVendorDTO](./dtos/TopVendorDTO.md)
+- [UserGrowthTrendsSummaryDTO](./dtos/UserGrowthTrendsSummaryDTO.md)
 - [AnalyticsDTO](./dtos/AnalyticsDTO.md)
 - [TopSellingMealDTO](./dtos/TopSellingMealDTO.md)
 - [BiometricDeviceDTO](./dtos/BiometricDeviceDTO.md)
