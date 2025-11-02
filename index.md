@@ -67,10 +67,12 @@
 - [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md)
 - [SuspensionStatusDTO](./dtos/SuspensionStatusDTO.md)
 - [WalletTransactionDTO](./dtos/WalletTransactionDTO.md)
+- [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 - [SavedLocationDTO](./dtos/SavedLocationDTO.md)
 - [UserDetailDTO](./dtos/UserDetailDTO.md)
 - [UserDTO](./dtos/UserDTO.md)
 - [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)
+- [UserResponseDTO](./dtos/UserResponseDTO.md)
 - [RiderVerificationDTO](./dtos/RiderVerificationDTO.md)
 
 ## Interfaces
@@ -104,7 +106,6 @@
 - [PaystackWebhookEvent](./interfaces/PaystackWebhookEvent.md)
 - [PaystackInitialiseTransaction](./interfaces/PaystackInitialiseTransaction.md)
 - [PaystackPaymentClientResponse](./interfaces/PaystackPaymentClientResponse.md)
-- [OTPSendResponse](./interfaces/OTPSendResponse.md)
 - [VerificationState](./interfaces/VerificationState.md)
 - [ActionDoneBy](./interfaces/ActionDoneBy.md)
 - [RiderRequestNotification](./interfaces/RiderRequestNotification.md)

@@ -3,16 +3,16 @@
 > Auto-generated from start/routes
 
 ### POST /api/admin/login
-- Returns: —
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 
 ### POST /api/admin/verify-otp
-- Returns: —
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
 
 ### POST /api/admin/forgot-password
-- Returns: —
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 
 ### POST /api/admin/request-otp
-- Returns: —
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 
 ### POST /api/admin/reset-password
 - Returns: —
@@ -21,10 +21,10 @@
 - Returns: —
 
 ### GET /api/admin/bulk-communications/:id
-- Returns: —
+- Returns: [BulkCommunicationDTO](./dtos/BulkCommunicationDTO.md)
 
 ### GET /api/admin/bulk-communications/:id/recipients
-- Returns: —
+- Returns: [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md)
 
 ### POST /api/admin/bulk-communications/:id/retry-failed
 - Returns: —
@@ -54,7 +54,7 @@
 - Returns: —
 
 ### GET /api/admin/user-management/:id
-- Returns: —
+- Returns: [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)
 
 ### GET /api/admin/user-management/:id
 - Returns: —
@@ -63,7 +63,7 @@
 - Returns: —
 
 ### POST /api/admin/user-management/suspend
-- Returns: —
+- Returns: [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md)
 
 ### POST /api/admin/user-management/reactivate
 - Returns: —
@@ -75,7 +75,7 @@
 - Returns: —
 
 ### POST /api/biometric/verify
-- Returns: —
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
 
 ### GET /api/business/:id/details
 - Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md)
@@ -117,13 +117,7 @@
 - Returns: —
 
 ### POST /api/coupons/validate
-- Returns: ⚠️ CouponValidationDTO
-          isValid: validation.isValid,
-          couponId: validation.coupon?.id,
-          discountAmount: validation.discountAmount,
-          finalAmount: validation.finalAmount,
-          message: validation.message,
-        }) (not documented)
+- Returns: [CouponValidationDTO](./dtos/CouponValidationDTO.md)
 
 ### GET /api/coupons/my-usage
 - Returns: [CouponUsageDTO](./dtos/CouponUsageDTO.md)
@@ -141,7 +135,7 @@
 - Returns: —
 
 ### GET /api/favourites/businesses
-- Returns: —
+- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md)
 
 ### GET /api/favourites/meals
 - Returns: —
@@ -276,11 +270,7 @@
 - Returns: [ReferralDTO](./dtos/ReferralDTO.md)
 
 ### GET /api/referrals//stats
-- Returns: ⚠️ ReferralStatsDTO
-          referralCode: user.referralCode,
-          user: user,
-          ...stats,
-        }) (not documented)
+- Returns: [ReferralStatsDTO](./dtos/ReferralStatsDTO.md)
 
 ### POST /api/reports/report-business
 - Returns: —
@@ -292,10 +282,10 @@
 - Returns: —
 
 ### GET /api/rider/requests/:id
-- Returns: —
+- Returns: [RiderRequestDTO](./dtos/RiderRequestDTO.md)
 
 ### POST /api/rider/requests/:id/accept
-- Returns: —
+- Returns: [OrderDTO](./dtos/OrderDTO.md)
 
 ### POST /api/rider/requests/:id/reject
 - Returns: —
@@ -325,7 +315,7 @@
 - Returns: —
 
 ### POST /api/user/login-other-source
-- Returns: —
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
 
 ### POST /api/user/logout
 - Returns: —
