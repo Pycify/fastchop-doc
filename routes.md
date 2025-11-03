@@ -3,16 +3,16 @@
 > Auto-generated from start/routes
 
 ### POST /api/admin/login
-- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md) 
 
 ### POST /api/admin/verify-otp
-- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md) 
 
 ### POST /api/admin/forgot-password
-- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md) 
 
 ### POST /api/admin/request-otp
-- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
+- Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md) 
 
 ### POST /api/admin/reset-password
 - Returns: —
@@ -21,40 +21,40 @@
 - Returns: —
 
 ### GET /api/admin/bulk-communications/:id
-- Returns: [BulkCommunicationDTO](./dtos/BulkCommunicationDTO.md)
+- Returns: [BulkCommunicationDTO](./dtos/BulkCommunicationDTO.md) [ ]
 
 ### GET /api/admin/bulk-communications/:id/recipients
-- Returns: [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md)
+- Returns: [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md) [ ]
 
 ### POST /api/admin/bulk-communications/:id/retry-failed
 - Returns: —
 
 ### GET /api/admin/dashboard/analytics
-- Returns: [AdminAnalyticsDTO](./dtos/AdminAnalyticsDTO.md)
+- Returns: [AdminAnalyticsDTO](./dtos/AdminAnalyticsDTO.md) 
 
 ### GET /api/admin/dashboard/user-growth-trends
-- Returns: [UserGrowthTrendsSummaryDTO](./dtos/UserGrowthTrendsSummaryDTO.md)
+- Returns: [UserGrowthTrendsSummaryDTO](./dtos/UserGrowthTrendsSummaryDTO.md) 
 
 ### GET /api/admin/dashboard/order-performance
-- Returns: [OrderPerformanceSummaryDTO](./dtos/OrderPerformanceSummaryDTO.md)
+- Returns: [OrderPerformanceSummaryDTO](./dtos/OrderPerformanceSummaryDTO.md) 
 
 ### GET /api/admin/dashboard/referral-payout
-- Returns: [ReferralPayoutSummaryDTO](./dtos/ReferralPayoutSummaryDTO.md)
+- Returns: [ReferralPayoutSummaryDTO](./dtos/ReferralPayoutSummaryDTO.md) 
 
 ### GET /api/admin/dashboard/revenue
-- Returns: [RevenueSummaryDTO](./dtos/RevenueSummaryDTO.md)
+- Returns: [RevenueSummaryDTO](./dtos/RevenueSummaryDTO.md) 
 
 ### GET /api/admin/dashboard/top-buyers
-- Returns: [TopBuyerDTO](./dtos/TopBuyerDTO.md)
+- Returns: [TopBuyerDTO](./dtos/TopBuyerDTO.md) [ ]
 
 ### GET /api/admin/dashboard/top-vendors
-- Returns: [TopVendorDTO](./dtos/TopVendorDTO.md)
+- Returns: [TopVendorDTO](./dtos/TopVendorDTO.md) [ ]
 
 ### GET /api/admin/dashboard/top-riders
-- Returns: [TopRiderDTO](./dtos/TopRiderDTO.md)
+- Returns: [TopRiderDTO](./dtos/TopRiderDTO.md) [ ]
 
 ### GET /api/admin/user-management/:id
-- Returns: [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)
+- Returns: [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md) 
 
 ### GET /api/admin/user-management/:id
 - Returns: —
@@ -63,7 +63,7 @@
 - Returns: —
 
 ### POST /api/admin/user-management/suspend
-- Returns: [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md)
+- Returns: [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md) 
 
 ### POST /api/admin/user-management/reactivate
 - Returns: —
@@ -75,10 +75,10 @@
 - Returns: —
 
 ### POST /api/biometric/verify
-- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md) 
 
 ### GET /api/business/:id/details
-- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md)
+- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md) 
 
 ### GET /api/business/:id/reviews/detailed-rating
 - Returns: —
@@ -96,7 +96,7 @@
 - Returns: —
 
 ### PUT /api/business/:id/switch
-- Returns: [VendorBusinessDTO](./dtos/VendorBusinessDTO.md)
+- Returns: [VendorBusinessDTO](./dtos/VendorBusinessDTO.md) 
 
 ### GET /api/cart/index
 - Returns: —
@@ -117,76 +117,73 @@
 - Returns: —
 
 ### POST /api/coupons/validate
-- Returns: [CouponValidationDTO](./dtos/CouponValidationDTO.md)
+- Returns: [CouponValidationDTO](./dtos/CouponValidationDTO.md) 
 
 ### GET /api/coupons/my-usage
-- Returns: [CouponUsageDTO](./dtos/CouponUsageDTO.md)
+- Returns: [CouponUsageDTO](./dtos/CouponUsageDTO.md) [ ]
 
 ### GET /api/coupons/:id
-- Returns: [CouponDTO](./dtos/CouponDTO.md)
+- Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
 ### PUT /api/coupons/:id
-- Returns: [CouponDTO](./dtos/CouponDTO.md)
+- Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
 ### POST /api/coupons/:id/cancel
-- Returns: [CouponDTO](./dtos/CouponDTO.md)
+- Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
 ### POST /api/favourites/toggle
 - Returns: —
 
 ### GET /api/favourites/businesses
-- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md)
+- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md) [ ]
 
 ### GET /api/favourites/meals
 - Returns: —
 
 ### POST /api/meal/create
-- Returns: [MealDTO](./dtos/MealDTO.md)
+- Returns: [MealDTO](./dtos/MealDTO.md) 
 
 ### POST /api/meal/meal-type
-- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md)
+- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md) 
 
 ### PATCH /api/meal/meal-type/:id
-- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md)
+- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md) 
 
 ### DELETE /api/meal/meal-type/:id
 - Returns: —
 
 ### POST /api/meal/option-item
-- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md)
+- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md) 
 
 ### PATCH /api/meal/option-item/:id
-- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md)
+- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md) 
 
 ### DELETE /api/meal/option-item/:id
 - Returns: —
 
 ### POST /api/meal/meal-pack
-- Returns: [MealPackDTO](./dtos/MealPackDTO.md)
+- Returns: [MealPackDTO](./dtos/MealPackDTO.md) 
 
 ### PATCH /api/meal/meal-pack/:id
-- Returns: [MealPackDTO](./dtos/MealPackDTO.md)
+- Returns: [MealPackDTO](./dtos/MealPackDTO.md) 
 
 ### DELETE /api/meal/meal-pack/:id
 - Returns: —
 
 ### POST /api/meal/meal-option
-- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md)
+- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md) 
 
 ### PATCH /api/meal/meal-option/:id
-- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md)
+- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md) 
 
 ### DELETE /api/meal/meal-option/:id
 - Returns: —
 
 ### POST /api/meal/meal
-- Returns: [MealDTO](./dtos/MealDTO.md)
-
-### GET /api/meal/meal/:id
-- Returns: [MealDTO](./dtos/MealDTO.md)
+- Returns: [MealDTO](./dtos/MealDTO.md) 
 
 ### PATCH /api/meal/meal/:id
-- Returns: [MealDTO](./dtos/MealDTO.md)
+- Returns: [MealDTO](./dtos/MealDTO.md) 
 
 ### DELETE /api/meal/meal/:id
 - Returns: —
@@ -195,31 +192,34 @@
 - Returns: —
 
 ### GET /api/meal/meal-type/:id
-- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md)
+- Returns: [MealTypeDTO](./dtos/MealTypeDTO.md) 
 
 ### GET /api/meal/option-item
 - Returns: —
 
 ### GET /api/meal/option-item/:id
-- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md)
+- Returns: [MealOptionItemDTO](./dtos/MealOptionItemDTO.md) 
 
 ### GET /api/meal/meal-pack
 - Returns: —
 
 ### GET /api/meal/meal-pack/:id
-- Returns: [MealPackDTO](./dtos/MealPackDTO.md)
+- Returns: [MealPackDTO](./dtos/MealPackDTO.md) 
 
 ### GET /api/meal/meal-option
 - Returns: —
 
 ### GET /api/meal/meal-option/:id
-- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md)
+- Returns: [MealOptionDTO](./dtos/MealOptionDTO.md) 
 
 ### GET /api/meal/meal
 - Returns: —
 
+### GET /api/meal/meal/:id
+- Returns: [MealDTO](./dtos/MealDTO.md) 
+
 ### GET /api/meal/meal-category
-- Returns: [MealCategoryDTO](./dtos/MealCategoryDTO.md)
+- Returns: [MealCategoryDTO](./dtos/MealCategoryDTO.md) [ ]
 
 ### POST /api/misc/autocomplete
 - Returns: —
@@ -249,7 +249,7 @@
 - Returns: —
 
 ### PATCH /api/notifications/:id/read
-- Returns: [NotificationDTO](./dtos/NotificationDTO.md)
+- Returns: [NotificationDTO](./dtos/NotificationDTO.md) 
 
 ### PATCH /api/notifications/read-all
 - Returns: —
@@ -264,34 +264,34 @@
 - Returns: —
 
 ### GET /api/order/:id
-- Returns: [OrderDTO](./dtos/OrderDTO.md)
+- Returns: [OrderDTO](./dtos/OrderDTO.md) 
 
 ### GET /api/referrals/:id
-- Returns: [ReferralDTO](./dtos/ReferralDTO.md)
+- Returns: [ReferralDTO](./dtos/ReferralDTO.md) 
 
 ### GET /api/referrals//stats
-- Returns: [ReferralStatsDTO](./dtos/ReferralStatsDTO.md)
+- Returns: [ReferralStatsDTO](./dtos/ReferralStatsDTO.md) 
 
 ### POST /api/reports/report-business
 - Returns: —
 
 ### GET /api/reports/report-reasons
-- Returns: [ReportReasonDTO](./dtos/ReportReasonDTO.md)
+- Returns: [ReportReasonDTO](./dtos/ReportReasonDTO.md) [ ]
 
 ### GET /api/rider/requests
 - Returns: —
 
 ### GET /api/rider/requests/:id
-- Returns: [RiderRequestDTO](./dtos/RiderRequestDTO.md)
+- Returns: [RiderRequestDTO](./dtos/RiderRequestDTO.md) 
 
 ### POST /api/rider/requests/:id/accept
-- Returns: [OrderDTO](./dtos/OrderDTO.md)
+- Returns: [OrderDTO](./dtos/OrderDTO.md) 
 
 ### POST /api/rider/requests/:id/reject
 - Returns: —
 
 ### POST /api/rider/verify
-- Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md)
+- Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
 
 ### GET /api/share/store/:id
 - Returns: —
@@ -315,7 +315,7 @@
 - Returns: —
 
 ### POST /api/user/login-other-source
-- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md)
+- Returns: [UserResponseDTO](./dtos/UserResponseDTO.md) 
 
 ### POST /api/user/logout
 - Returns: —
@@ -324,17 +324,17 @@
 - Returns: —
 
 ### PATCH /api/user/edit
-- Returns: [UserDTO](./dtos/UserDTO.md)
+- Returns: [UserDTO](./dtos/UserDTO.md) 
 
 ### POST /api/wallet/create-pin
 - Returns: —
 
 ### POST /api/wallet/bank-account
-- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md) 
 
 ### GET /api/wallet/bank-account
-- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md) 
 
 ### PATCH /api/wallet/bank-account
-- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md)
+- Returns: [BankAccountDTO](./dtos/BankAccountDTO.md) 
 
