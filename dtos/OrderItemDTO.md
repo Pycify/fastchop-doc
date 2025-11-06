@@ -9,12 +9,12 @@
 | `totalAmount` | number | - |
 | `currency` | string | - |
 | `note` | string \| null | - |
-| `createdAt` | DateTime | - |
-| `updatedAt` | DateTime | - |
 | `meal` | [MiniMealDTO](../dtos/MiniMealDTO.md) | - |
 | `pack` | [MiniMealPackDTO](../dtos/MiniMealPackDTO.md) \| null | - |
 | `mealPackDisplay` | [MealItemDisplay](../interfaces/MealItemDisplay.md) \| null | - |
 | `options` | [MiniOrderItemOptionDTO](../dtos/MiniOrderItemOptionDTO.md)[] | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |
 | `name` | data.mealPack.name, | - |
 | `quantity` | data.quantity, | - |
 | `display` | `${data.quantity} x ${data.mealPack.name}`, | - |

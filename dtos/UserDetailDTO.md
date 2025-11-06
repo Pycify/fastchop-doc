@@ -18,6 +18,7 @@
 | `userBalance` | string | - |
 | `bonusBalance` | string | - |
 | `hasWalletPin` | boolean | - |
+| `suspensionInfo` | [AccountSuspensionDTO](../dtos/AccountSuspensionDTO.md) \| null | - |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) \| undefined | - |
 | `storeStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null \| undefined | - |
 | `businessId` | string \| null \| undefined | - |

@@ -4,4 +4,3 @@
 |-----|--------|
 | `WALLET` | `wallet` |
 | `CARD` | `card` |
-| `FREE` | `free` |

@@ -164,4 +164,5 @@
 - [WalletUser](./enums/WalletUser.md)
 - [ManagerStatus](./enums/ManagerStatus.md)
 - [NotificationType](./enums/NotificationType.md)
+- [SocketEvent](./enums/SocketEvent.md)
 - [ReferralStatus](./enums/ReferralStatus.md)

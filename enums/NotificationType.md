@@ -34,3 +34,4 @@
 | `PASSWORD_CHANGED` | `password_changed` |
 | `PROMO_ANNOUNCEMENT` | `promo_announcement` |
 | `SYSTEM_UPDATE` | `system_update` |
+| `BULK_MESSAGE` | `bulk_message` |

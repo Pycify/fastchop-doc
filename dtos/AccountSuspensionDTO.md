@@ -11,12 +11,16 @@
 | `status` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `suspensionReason` | string \| null | - |
 | `reactivationReason` | string \| null | - |
-| `suspendedBy` | string \| null | - |
-| `reactivatedBy` | string \| null | - |
 | `suspendedAt` | DateTime \| null | - |
 | `reactivatedAt` | DateTime \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `user` | [UserDTO](../dtos/UserDTO.md) | - |
-| `suspendedByUser` | [UserDTO](../dtos/UserDTO.md) | - |
-| `reactivatedByUser` | [UserDTO](../dtos/UserDTO.md) | - |
+| `suspendedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `reactivatedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `id` | data.suspendedByUser.id, | - |
+| `name` | data.suspendedByUser.fullName, | - |
+| `email` | data.suspendedByUser.email, | - |
+| `id` | data.reactivatedByUser.id, | - |
+| `name` | data.reactivatedByUser.fullName, | - |
+| `email` | data.reactivatedByUser.email, | - |

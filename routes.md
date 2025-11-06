@@ -221,6 +221,9 @@
 ### GET /api/meal/meal-category
 - Returns: [MealCategoryDTO](./dtos/MealCategoryDTO.md) [ ]
 
+### GET /api/misc/health
+- Returns: —
+
 ### POST /api/misc/autocomplete
 - Returns: —
 
