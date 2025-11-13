@@ -8,5 +8,5 @@
 | `CANCELLED` | `cancelled` |
 | `//
   ONGOING` | `ongoing` |
-| `AWAITING_PICKUP` | `awaiting_pickup` |
+| `AWAITING` | `awaiting` |
 | `IN_TRANSIT` | `in_transit` |

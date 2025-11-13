@@ -15,11 +15,13 @@
 | `accountStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime \| null | - |
-| `userBalance` | string | - |
-| `bonusBalance` | string | - |
+| `userBalance` | number | - |
+| `currency` | string | - |
+| `bonusBalance` | number | - |
 | `hasWalletPin` | boolean | - |
 | `suspensionInfo` | [AccountSuspensionDTO](../dtos/AccountSuspensionDTO.md) \| null | - |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) \| undefined | - |
 | `storeStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null \| undefined | - |
 | `businessId` | string \| null \| undefined | - |
+| `riderVerificationStep` | [RiderVerificationStep](../enums/RiderVerificationStep.md) \| undefined \| null | - |
 | `default` | return new UserDetailDTO(user) | - |

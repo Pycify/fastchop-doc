@@ -12,6 +12,7 @@
 | `// Orders
   NEW_ORDER` | `new_order` |
 | `ORDER_STATUS_CHANGED` | `order_status_changed` |
+| `RIDER_REQUEST_NEW` | `new_rider_request` |
 | `// Health
   PING` | `ping` |
 | `// Errors

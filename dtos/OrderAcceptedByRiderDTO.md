@@ -1,4 +1,4 @@
-# OrderAwaitingRiderDTO
+# OrderAcceptedByRiderDTO
 
 ## Properties
 

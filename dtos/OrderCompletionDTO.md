@@ -7,7 +7,7 @@
 | `id` | string | - |
 | `orderId` | string | - |
 | `orderNumber` | string | - |
-| `completedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `completedBy` | ActionDoneBy | - |
 | `rating` | number \| null | - |
 | `review` | string \| null | - |
 | `completedAt` | DateTime | - |

@@ -7,7 +7,7 @@
 | `id` | string | - |
 | `orderId` | string | - |
 | `orderNumber` | string | - |
-| `acceptedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `acceptedBy` | ActionDoneBy | - |
 | `acceptedAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `id` | data.acceptedByUser.id, | - |

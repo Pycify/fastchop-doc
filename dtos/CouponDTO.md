@@ -18,8 +18,8 @@ Coupon Data Transfer Object
 | `startDate` | DateTime | - |
 | `endDate` | DateTime | - |
 | `status` | [CouponStatus](../enums/CouponStatus.md) | Enum: `active`, `expired`, `cancelled` |
-| `createdBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
-| `cancelledBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) \| null | - |
+| `createdBy` | ActionDoneBy | - |
+| `cancelledBy` | ActionDoneBy \| null | - |
 | `cancelledAt` | DateTime \| null | - |
 | `cancellationReason` | string \| null | - |
 | `createdAt` | DateTime | - |

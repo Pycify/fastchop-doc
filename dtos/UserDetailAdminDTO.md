@@ -21,5 +21,6 @@
 | `branches` | number \| undefined | - |
 | `business` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) \| undefined | - |
 | `totalDeliveries` | number \| undefined | - |
+| `riderVerificationStep` | [RiderVerificationStep](../enums/RiderVerificationStep.md) \| undefined \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime \| null | - |

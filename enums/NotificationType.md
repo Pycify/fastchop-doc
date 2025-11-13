@@ -7,10 +7,13 @@
 | `ORDER_ACCEPTED` | `order_accepted` |
 | `ORDER_PREPARING` | `order_preparing` |
 | `ORDER_READY` | `order_ready` |
+| `ORDER_AWAITING_RIDER` | `order_awaiting_rider` |
+| `ORDER_ACCEPTED_BY_RIDER` | `order_accepted_by_rider` |
 | `ORDER_PICKED_UP` | `order_picked_up` |
 | `ORDER_IN_TRANSIT` | `order_in_transit` |
 | `ORDER_DELIVERED` | `order_delivered` |
 | `ORDER_CANCELLED` | `order_cancelled` |
+| `RIDER_REQUEST` | `rider_request` |
 | `// Meal notifications
   MEAL_FLAGGED` | `meal_flagged` |
 | `NEW_MEAL_ADDED` | `new_meal_added` |

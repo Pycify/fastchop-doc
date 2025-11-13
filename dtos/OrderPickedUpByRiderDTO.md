@@ -5,8 +5,8 @@
 | Property | Type | Description |
 |----------|------|-------------|
 | `id` | string | - |
-| `markedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `markedBy` | ActionDoneBy | - |
 | `pickedUpAt` | DateTime | - |
-| `id` | data.markedByUser.id, | - |
-| `name` | data.markedByUser.fullName, | - |
-| `email` | data.markedByUser.email, | - |
+| `id` | data.rider.id, | - |
+| `name` | data.rider.fullName, | - |
+| `email` | data.rider.email, | - |

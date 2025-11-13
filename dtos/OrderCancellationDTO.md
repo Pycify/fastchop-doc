@@ -6,10 +6,12 @@
 |----------|------|-------------|
 | `id` | string | - |
 | `orderId` | string | - |
-| `cancelledBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `cancelledBy` | ActionDoneBy | - |
 | `reason` | string | - |
 | `cancelledByRole` | [CancelledByRole](../enums/CancelledByRole.md) | Enum: `customer`, `vendor`, `admin` |
 | `refundStatus` | [RefundStatus](../enums/RefundStatus.md) \| null | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |
 | `id` | data.cancelledByUser.id, | - |
 | `name` | data.cancelledByUser.fullName, | - |
 | `email` | data.cancelledByUser.email, | - |

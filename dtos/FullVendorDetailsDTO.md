@@ -23,11 +23,13 @@
 | `shareUrl` | string \| null | - |
 | `ratings` | [VendorRating](../interfaces/VendorRating.md) | - |
 | `verifiedAt` | DateTime \| null | - |
-| `createdAt` | DateTime | - |
-| `updatedAt` | DateTime | - |
 | `businessLocation` | [LocationDTO](../dtos/LocationDTO.md) \| null | - |
 | `hours` | BusinessHourDTO[] \| null | - |
 | `images` | MediaDTO[] \| null | - |
+| `reviewsCount` | number | - |
+| `storeManagers` | ActionDoneBy[] | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |
 | `rating` | data.reviews.length > 0 | - |
 | `base` | 5, | - |
 | `totalReviews` | data.reviews.length, | - |

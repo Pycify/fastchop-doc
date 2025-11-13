@@ -7,7 +7,7 @@
 | `id` | string | - |
 | `meal` | [MiniMealDTO](../dtos/MiniMealDTO.md) | - |
 | `reason` | string | - |
-| `flagger` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `flagger` | ActionDoneBy | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `id` | flag.flagger.id, | - |

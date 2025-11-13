@@ -30,6 +30,7 @@
 | `orderStarted` | [OrderStartedPreparationDTO](../dtos/OrderStartedPreparationDTO.md) \| null | - |
 | `orderReadyForPickup` | [OrderReadyForPickupDTO](../dtos/OrderReadyForPickupDTO.md) \| null | - |
 | `awaitingRider` | [OrderAwaitingRiderDTO](../dtos/OrderAwaitingRiderDTO.md) \| null | - |
+| `acceptedByRider` | [OrderAwaitingRiderDTO](../dtos/OrderAwaitingRiderDTO.md) \| null | - |
 | `pickedUpByRider` | [OrderPickedUpByRiderDTO](../dtos/OrderPickedUpByRiderDTO.md) \| null | - |
 | `inTransit` | [OrderInTransitDTO](../dtos/OrderInTransitDTO.md) \| null | - |
 | `orderTimeline` | Partial<Record<OrderStatus, DateTime \| null>> | - |

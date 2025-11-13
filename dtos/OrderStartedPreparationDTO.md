@@ -7,9 +7,9 @@
 | `id` | string | - |
 | `orderId` | string | - |
 | `orderNumber` | string | - |
-| `startedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `startedBy` | ActionDoneBy | - |
 | `startedAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.startedByUser.id, | - |
-| `name` | data.startedByUser.fullName, | - |
-| `email` | data.startedByUser.email, | - |
+| `id` | data.user.id, | - |
+| `name` | data.user.fullName, | - |
+| `email` | data.user.email, | - |

@@ -7,7 +7,7 @@ Referral Stats DTO
 | Property | Type | Description |
 |----------|------|-------------|
 | `referralCode` | string | - |
-| `referrer` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `referrer` | ActionDoneBy | - |
 | `currency` | string | - |
 | `totalReferred` | number | - |
 | `completedReferrals` | number | - |

@@ -5,8 +5,8 @@
 | Property | Type | Description |
 |----------|------|-------------|
 | `id` | string | - |
-| `user` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
-| `vendor` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `user` | ActionDoneBy | - |
+| `vendor` | ActionDoneBy | - |
 | `status` | [ManagerStatus](../enums/ManagerStatus.md) | Enum: `pending`, `active` |
 | `invitedAt` | DateTime | - |
 | `acceptedAt` | DateTime \| null | - |

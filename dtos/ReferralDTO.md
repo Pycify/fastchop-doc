@@ -17,8 +17,8 @@ Referral DTO
 | `notes` | string \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `referrer` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
-| `referred` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `referrer` | ActionDoneBy | - |
+| `referred` | ActionDoneBy | - |
 | `order` | [OrderMiniDTO](../dtos/OrderMiniDTO.md) \| null | - |
 | `id` | data.referrer.id, | - |
 | `name` | data.referrer.fullName, | - |

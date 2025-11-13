@@ -62,6 +62,9 @@
 ### GET /api/admin/user-management/:id
 - Returns: —
 
+### GET /api/admin/user-management/business-profile/:id
+- Returns: —
+
 ### POST /api/admin/user-management/suspend
 - Returns: [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md) 
 
@@ -70,6 +73,9 @@
 
 ### GET /api/analytics/top-selling-meals
 - Returns: —
+
+### GET /api/analytics/rider
+- Returns: [RiderAnalyticsDTO](./dtos/RiderAnalyticsDTO.md) 
 
 ### POST /api/biometric/challenge
 - Returns: —
@@ -248,6 +254,15 @@
 ### POST /api/misc/send-email
 - Returns: —
 
+### GET /api/misc/verify-transaction/:reference
+- Returns: [VerifyTransactionDTO](./dtos/VerifyTransactionDTO.md) 
+
+### GET /api/misc/genders
+- Returns: —
+
+### GET /api/misc/relationships
+- Returns: —
+
 ### GET /api/notifications/unread-count
 - Returns: —
 
@@ -287,11 +302,20 @@
 ### GET /api/rider/requests/:id
 - Returns: [RiderRequestDTO](./dtos/RiderRequestDTO.md) 
 
+### GET /api/rider/personal-info
+- Returns: ⚠️ RiderPersonalInfoDTO (not documented)
+
 ### POST /api/rider/requests/:id/accept
 - Returns: [OrderDTO](./dtos/OrderDTO.md) 
 
 ### POST /api/rider/requests/:id/reject
 - Returns: —
+
+### POST /api/rider/personal-info
+- Returns: ⚠️ RiderPersonalInfoDTO (not documented)
+
+### PATCH /api/rider/personal-info
+- Returns: ⚠️ RiderPersonalInfoDTO (not documented)
 
 ### POST /api/rider/verify
 - Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
@@ -323,11 +347,11 @@
 ### POST /api/user/logout
 - Returns: —
 
-### DELETE /api/user/delete
-- Returns: —
-
 ### PATCH /api/user/edit
 - Returns: [UserDTO](./dtos/UserDTO.md) 
+
+### PATCH /api/user/update-messaging-token
+- Returns: —
 
 ### POST /api/wallet/create-pin
 - Returns: —

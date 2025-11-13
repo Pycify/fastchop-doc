@@ -16,8 +16,8 @@
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `user` | [UserDTO](../dtos/UserDTO.md) | - |
-| `suspendedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
-| `reactivatedBy` | [ActionDoneBy](../interfaces/ActionDoneBy.md) | - |
+| `suspendedBy` | ActionDoneBy | - |
+| `reactivatedBy` | ActionDoneBy | - |
 | `id` | data.suspendedByUser.id, | - |
 | `name` | data.suspendedByUser.fullName, | - |
 | `email` | data.suspendedByUser.email, | - |
