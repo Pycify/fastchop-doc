@@ -20,6 +20,3 @@ Referral Stats DTO
 | `pendingReferrals` | number | - |
 | `totalEarnings` | number | - |
 | `user` | User | - |
-| `id` | data.user.id, | - |
-| `email` | data.user.email, | - |
-| `name` | data.user.fullName, | - |

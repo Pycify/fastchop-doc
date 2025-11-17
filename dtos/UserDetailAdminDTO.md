@@ -18,8 +18,7 @@
 | `accountStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) \| undefined | - |
 | `suspensionInfo` | [AccountSuspensionDTO](../dtos/AccountSuspensionDTO.md) \| null | - |
-| `branches` | number \| undefined | - |
-| `business` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) \| undefined | - |
+| `businesses` | BranchWithDelivery[] \| undefined | - |
 | `totalDeliveries` | number \| undefined | - |
 | `riderVerificationStep` | [RiderVerificationStep](../enums/RiderVerificationStep.md) \| undefined \| null | - |
 | `createdAt` | DateTime | - |

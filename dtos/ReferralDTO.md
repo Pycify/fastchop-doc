@@ -20,9 +20,3 @@ Referral DTO
 | `referrer` | ActionDoneBy | - |
 | `referred` | ActionDoneBy | - |
 | `order` | [OrderMiniDTO](../dtos/OrderMiniDTO.md) \| null | - |
-| `id` | data.referrer.id, | - |
-| `name` | data.referrer.fullName, | - |
-| `email` | data.referrer.email, | - |
-| `id` | data.referred.id, | - |
-| `name` | data.referred.fullName, | - |
-| `email` | data.referred.email, | - |

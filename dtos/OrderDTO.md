@@ -34,5 +34,6 @@
 | `pickedUpByRider` | [OrderPickedUpByRiderDTO](../dtos/OrderPickedUpByRiderDTO.md) \| null | - |
 | `inTransit` | [OrderInTransitDTO](../dtos/OrderInTransitDTO.md) \| null | - |
 | `orderTimeline` | Partial<Record<OrderStatus, DateTime \| null>> | - |
+| `orderReview` | [ReviewDTO](../dtos/ReviewDTO.md) \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

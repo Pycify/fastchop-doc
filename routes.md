@@ -137,6 +137,9 @@
 ### POST /api/coupons/:id/cancel
 - Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
+### GET //link
+- Returns: —
+
 ### POST /api/favourites/toggle
 - Returns: —
 
@@ -272,10 +275,10 @@
 ### PATCH /api/notifications/read-all
 - Returns: —
 
-### DELETE /api/notifications/:id
+### DELETE /api/notifications/clear-read
 - Returns: —
 
-### DELETE /api/notifications/clear-read
+### DELETE /api/notifications/:id
 - Returns: —
 
 ### GET /api/order/index
@@ -320,7 +323,13 @@
 ### POST /api/rider/verify
 - Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
 
-### GET /api/share/store/:id
+### GET /api/share/business/:id
+- Returns: —
+
+### GET /api/share/order/:id
+- Returns: —
+
+### GET /api/share/referral/:id
 - Returns: —
 
 ### GET /api/transaction/list-banks
@@ -351,6 +360,9 @@
 - Returns: [UserDTO](./dtos/UserDTO.md) 
 
 ### PATCH /api/user/update-messaging-token
+- Returns: —
+
+### DELETE /api/vendor-suggestions/:id
 - Returns: —
 
 ### POST /api/wallet/create-pin

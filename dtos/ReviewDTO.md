@@ -7,9 +7,8 @@
 | `id` | string | - |
 | `orderId` | string | - |
 | `businessId` | string | - |
-| `userId` | string | - |
-| `userName` | string | - |
+| `user` | ActionDoneBy | - |
 | `rating` | number | - |
-| `review` | string | - |
+| `review` | string \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

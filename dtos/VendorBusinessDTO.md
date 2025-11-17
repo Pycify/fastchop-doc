@@ -8,6 +8,7 @@
 | `walletId` | string | - |
 | `ownerId` | string | - |
 | `name` | string | - |
+| `businessCode` | string | - |
 | `about` | string | - |
 | `phone` | string \| null | - |
 | `email` | string \| null | - |
@@ -15,6 +16,8 @@
 | `isDefault` | boolean | - |
 | `isCurrentSelected` | boolean | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
+| `fromAmount` | number | - |
+| `currency` | string | - |
 | `shareUrl` | string \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

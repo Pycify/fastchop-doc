@@ -12,6 +12,3 @@
 | `review` | string \| null | - |
 | `completedAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.completedByUser.id, | - |
-| `name` | data.completedByUser.fullName, | - |
-| `email` | data.completedByUser.email, | - |

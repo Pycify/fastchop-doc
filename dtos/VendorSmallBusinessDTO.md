@@ -7,6 +7,7 @@
 | `id` | string | - |
 | `ownerId` | string | - |
 | `name` | string | - |
+| `businessCode` | string | - |
 | `about` | string | - |
 | `phone` | string \| null | - |
 | `email` | string \| null | - |

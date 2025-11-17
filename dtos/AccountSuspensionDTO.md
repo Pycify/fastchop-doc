@@ -18,9 +18,3 @@
 | `user` | [UserDTO](../dtos/UserDTO.md) | - |
 | `suspendedBy` | ActionDoneBy | - |
 | `reactivatedBy` | ActionDoneBy | - |
-| `id` | data.suspendedByUser.id, | - |
-| `name` | data.suspendedByUser.fullName, | - |
-| `email` | data.suspendedByUser.email, | - |
-| `id` | data.reactivatedByUser.id, | - |
-| `name` | data.reactivatedByUser.fullName, | - |
-| `email` | data.reactivatedByUser.email, | - |

@@ -8,6 +8,7 @@
 | `walletId` | string | - |
 | `ownerId` | string | - |
 | `name` | string | - |
+| `businessCode` | string | - |
 | `about` | string | - |
 | `phone` | string \| null | - |
 | `email` | string \| null | - |
@@ -20,6 +21,8 @@
 | `verificationState` | string | - |
 | `storeStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) | - |
+| `fromAmount` | number | - |
+| `currency` | string | - |
 | `shareUrl` | string \| null | - |
 | `ratings` | [VendorRating](../interfaces/VendorRating.md) | - |
 | `verifiedAt` | DateTime \| null | - |

@@ -24,9 +24,3 @@ Coupon Data Transfer Object
 | `cancellationReason` | string \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.creator.id, | - |
-| `name` | data.creator.fullName, | - |
-| `email` | data.creator.email, | - |
-| `id` | data.canceller.id, | - |
-| `name` | data.canceller.fullName, | - |
-| `email` | data.canceller.email, | - |

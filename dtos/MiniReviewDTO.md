@@ -7,6 +7,6 @@
 | `id` | string | - |
 | `orderId` | string | - |
 | `rating` | number | - |
-| `review` | string | - |
+| `review` | string \| null | - |
 | `userName` | string | - |
 | `createdAt` | DateTime | - |

@@ -45,6 +45,7 @@
 - [MealTypeDTO](./dtos/MealTypeDTO.md)
 - [MiniMealTypeDTO](./dtos/MiniMealTypeDTO.md)
 - [MediaDTO](./dtos/MediaDTO.md)
+- [VerifyTransactionDTO](./dtos/VerifyTransactionDTO.md)
 - [NotificationActionDataDTO](./dtos/NotificationActionDataDTO.md)
 - [NotificationDTO](./dtos/NotificationDTO.md)
 - [OrderAcceptanceDTO](./dtos/OrderAcceptanceDTO.md)
@@ -78,13 +79,13 @@
 - [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md)
 - [SuspensionStatusDTO](./dtos/SuspensionStatusDTO.md)
 - [WalletTransactionDTO](./dtos/WalletTransactionDTO.md)
-- [VerifyTransactionDTO](./dtos/VerifyTransactionDTO.md)
 - [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 - [SavedLocationDTO](./dtos/SavedLocationDTO.md)
 - [UserDetailDTO](./dtos/UserDetailDTO.md)
 - [UserDTO](./dtos/UserDTO.md)
 - [UserDetailAdminDTO](./dtos/UserDetailAdminDTO.md)
 - [UserResponseDTO](./dtos/UserResponseDTO.md)
+- [VendorSuggestionDTO](./dtos/VendorSuggestionDTO.md)
 - [RiderVerificationDTO](./dtos/RiderVerificationDTO.md)
 
 ## Interfaces

@@ -10,6 +10,3 @@
 | `startedBy` | ActionDoneBy | - |
 | `startedAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.user.id, | - |
-| `name` | data.user.fullName, | - |
-| `email` | data.user.email, | - |

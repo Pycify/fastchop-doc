@@ -12,6 +12,3 @@
 | `refundStatus` | [RefundStatus](../enums/RefundStatus.md) \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.cancelledByUser.id, | - |
-| `name` | data.cancelledByUser.fullName, | - |
-| `email` | data.cancelledByUser.email, | - |

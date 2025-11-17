@@ -10,6 +10,3 @@
 | `acceptedBy` | ActionDoneBy | - |
 | `acceptedAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | data.acceptedByUser.id, | - |
-| `name` | data.acceptedByUser.fullName, | - |
-| `email` | data.acceptedByUser.email, | - |

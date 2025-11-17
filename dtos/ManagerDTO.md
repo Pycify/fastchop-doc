@@ -13,9 +13,3 @@
 | `businesses` | [VendorSmallBusinessDTO](../dtos/VendorSmallBusinessDTO.md)[] | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `id` | manager.user.id, | - |
-| `name` | manager.user.fullName, | - |
-| `email` | manager.user.email, | - |
-| `id` | manager.vendor.id, | - |
-| `name` | manager.vendor.fullName, | - |
-| `email` | manager.vendor.email, | - |

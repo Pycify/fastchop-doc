@@ -15,6 +15,3 @@ Coupon Usage DTO
 | `discountAmount` | number | - |
 | `unit` | [CouponUnit](../enums/CouponUnit.md) | Enum: `NGN`, `%` |
 | `createdAt` | DateTime | - |
-| `id` | data.user.id, | - |
-| `name` | data.user.fullName, | - |
-| `email` | data.user.email, | - |
