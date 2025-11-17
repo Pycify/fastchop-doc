@@ -17,3 +17,6 @@
   PING` | `ping` |
 | `// Errors
   ERROR` | `error` |
+| `//
+  REGISTER_APP_VERSION` | `register_app_version` |
+| `UPGRADE_AVAILABLE` | `upgrade_available` |
