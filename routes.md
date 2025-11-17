@@ -2,6 +2,24 @@
 
 > Auto-generated from start/routes
 
+### GET /api/admin/app-versions//:id
+- Returns: —
+
+### PUT /api/admin/app-versions//:id
+- Returns: —
+
+### DELETE /api/admin/app-versions//:id
+- Returns: —
+
+### GET /api/admin/app-versions//:appType/:platform
+- Returns: —
+
+### POST /api/admin/app-versions//notify/:appType/:platform
+- Returns: —
+
+### POST /api/admin/app-versions//notify-all
+- Returns: —
+
 ### POST /api/admin/login
 - Returns: [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md) 
 
@@ -264,6 +282,9 @@
 - Returns: —
 
 ### GET /api/misc/relationships
+- Returns: —
+
+### POST /api/misc/check-app-versions
 - Returns: —
 
 ### GET /api/notifications/unread-count

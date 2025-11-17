@@ -11,7 +11,6 @@
 | `minSupportedVersion` | string | - |
 | `isForceUpgrade` | boolean | - |
 | `releaseNotes` | string \| null | - |
-| `downloadUrl` | string \| null | - |
 | `isActive` | boolean | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
