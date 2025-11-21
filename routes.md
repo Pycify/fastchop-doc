@@ -308,11 +308,11 @@
 ### GET /api/order/:id
 - Returns: [OrderDTO](./dtos/OrderDTO.md) 
 
-### GET /api/referrals/:id
-- Returns: [ReferralDTO](./dtos/ReferralDTO.md) 
-
 ### GET /api/referrals//stats
 - Returns: [ReferralStatsDTO](./dtos/ReferralStatsDTO.md) 
+
+### GET /api/referrals/:id
+- Returns: [ReferralDTO](./dtos/ReferralDTO.md) 
 
 ### POST /api/reports/report-business
 - Returns: —

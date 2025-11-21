@@ -15,6 +15,7 @@
 | `isOpenStatus` | boolean | - |
 | `isDefault` | boolean | - |
 | `isCurrentSelected` | boolean | - |
+| `storeStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `fromAmount` | number | - |
 | `currency` | string | - |
