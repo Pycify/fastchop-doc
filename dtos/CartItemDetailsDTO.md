@@ -21,8 +21,12 @@
 | `name` | data.pack.name, | - |
 | `quantity` | data.quantity, | - |
 | `display` | `${data.quantity} x ${data.pack.name}`, | - |
-| `name` | e.mealOption.groupName, | - |
-| `optionItem` | data.options.map((optionItem) => ({ | - |
+| `price` | data.pack.price * data.quantity, | - |
+| `currency` | data.currency, | - |
+| `name` | optionGroup[0].mealOption.groupName, | - |
+| `optionItem` | optionGroup.map((optionItem) => ({ | - |
 | `name` | optionItem.mealOptionItem.name, | - |
 | `quantity` | optionItem.quantity, | - |
 | `display` | `${optionItem.quantity} x ${optionItem.mealOptionItem.name}`, | - |
+| `price` | optionItem.unitPrice * optionItem.quantity, | - |
+| `currency` | optionItem.currency, | - |

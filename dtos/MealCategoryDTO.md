@@ -7,6 +7,7 @@
 | `id` | string | - |
 | `name` | string | - |
 | `color` | string | - |
+| `imageUrl` | string | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `svg` | string | - |

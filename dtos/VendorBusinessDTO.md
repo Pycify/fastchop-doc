@@ -23,5 +23,5 @@
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `verifiedAt` | DateTime \| null | - |
-| `verificationState` | [VerificationStateType](../enums/VerificationStateType.md) | Enum: `verified`, `unverified`, `rejected`, `on_hold`, `pending` |
+| `verificationState` | [VerificationStateType](../enums/VerificationStateType.md) | Enum: `verified`, `unverified`, `rejected`, `pending` |
 | `images` | MediaDTO[] \| null | - |

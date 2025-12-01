@@ -12,6 +12,7 @@
 | `about` | string | - |
 | `phone` | string \| null | - |
 | `email` | string \| null | - |
+| `kmAway` | number \| null | - |
 | `ownerInfo` | [UserDTO](../dtos/UserDTO.md) | - |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |
 | `isOpenStatus` | boolean | - |
@@ -30,7 +31,10 @@
 | `hours` | BusinessHourDTO[] \| null | - |
 | `images` | MediaDTO[] \| null | - |
 | `reviewsCount` | number | - |
+| `suspensionInfo` | [AccountSuspensionDTO](../dtos/AccountSuspensionDTO.md) \| null | - |
 | `storeManagers` | ActionDoneBy[] | - |
+| `connectedStores` | [VendorSmallBusinessDTO](../dtos/VendorSmallBusinessDTO.md)[] | - |
+| `minMaxPrepTime` | string | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `rating` | data.reviews.length > 0 | - |

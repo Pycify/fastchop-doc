@@ -21,5 +21,6 @@
 | `businesses` | BranchWithDelivery[] \| undefined | - |
 | `totalDeliveries` | number \| undefined | - |
 | `riderVerificationStep` | [RiderVerificationStep](../enums/RiderVerificationStep.md) \| undefined \| null | - |
+| `riderInformation` | RiderPersonalInfoDTO \| undefined \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime \| null | - |

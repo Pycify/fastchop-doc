@@ -6,11 +6,15 @@
 |----------|------|-------------|
 | `id` | string | - |
 | `name` | string | - |
+| `code` | string | - |
 | `description` | string \| null | - |
 | `preparationTime` | string \| null | - |
 | `price` | number | - |
 | `inStock` | boolean | - |
+| `isOpen` | boolean | - |
 | `isFavourite` | boolean | - |
+| `inCart` | boolean | - |
+| `kmAway` | number \| null | - |
 | `servingSize` | string | - |
 | `category` | [MealCategoryDTO](../dtos/MealCategoryDTO.md) | - |
 | `flag` | [MiniMealFlagDTO](../dtos/MiniMealFlagDTO.md) \| null | - |

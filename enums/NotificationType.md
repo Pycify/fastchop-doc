@@ -16,11 +16,11 @@
 | `RIDER_REQUEST` | `rider_request` |
 | `// Meal notifications
   MEAL_FLAGGED` | `meal_flagged` |
+| `MEAL_UNFLAGGED` | `meal_unflagged` |
 | `NEW_MEAL_ADDED` | `new_meal_added` |
 | `// Business notifications
   BUSINESS_VERIFIED` | `business_verified` |
-| `BUSINESS_SUSPENDED` | `business_suspended` |
-| `BUSINESS_REACTIVATED` | `business_reactivated` |
+| `BUSINESS_REJECTED` | `business_rejected` |
 | `NEW_REVIEW` | `new_review` |
 | `// Manager notifications
   MANAGER_INVITED` | `manager_invited` |
@@ -31,6 +31,9 @@
 | `WALLET_DEBITED` | `wallet_debited` |
 | `WITHDRAWAL_PROCESSED` | `withdrawal_processed` |
 | `WITHDRAWAL_FAILED` | `withdrawal_failed` |
+| `// Rider notifications
+  RIDER_VERIFIED` | `rider_verified` |
+| `RIDER_REJECTED` | `rider_rejected` |
 | `// System notifications
   ACCOUNT_VERIFIED` | `account_verified` |
 | `ACCOUNT_SUSPENDED` | `account_suspended` |

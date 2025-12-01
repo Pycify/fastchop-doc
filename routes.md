@@ -80,6 +80,9 @@
 ### GET /api/admin/user-management/:id
 - Returns: —
 
+### GET /api/admin/user-management/business/:id
+- Returns: —
+
 ### GET /api/admin/user-management/business-profile/:id
 - Returns: —
 
@@ -89,11 +92,29 @@
 ### POST /api/admin/user-management/reactivate
 - Returns: —
 
+### GET /api/admin/user-management/rider-deliveries/:id
+- Returns: —
+
+### GET /api/admin/verification/business/:id
+- Returns: [VendorBusinessVerificationDTO](./dtos/VendorBusinessVerificationDTO.md) 
+
+### GET /api/admin/verification/rider/:id
+- Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
+
+### PUT /api/admin/verification/business/:id/update
+- Returns: [VendorBusinessVerificationDTO](./dtos/VendorBusinessVerificationDTO.md) 
+
+### PUT /api/admin/verification/rider/:id/update
+- Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
+
 ### GET /api/analytics/top-selling-meals
 - Returns: —
 
 ### GET /api/analytics/rider
 - Returns: [RiderAnalyticsDTO](./dtos/RiderAnalyticsDTO.md) 
+
+### POST /api/biometric/register
+- Returns: —
 
 ### POST /api/biometric/challenge
 - Returns: —
@@ -101,8 +122,11 @@
 ### POST /api/biometric/verify
 - Returns: [UserResponseDTO](./dtos/UserResponseDTO.md) 
 
+### GET /api/business/list-all
+- Returns: —
+
 ### GET /api/business/:id/details
-- Returns: [FullVendorDetailsDTO](./dtos/FullVendorDetailsDTO.md) 
+- Returns: —
 
 ### GET /api/business/:id/reviews/detailed-rating
 - Returns: —
@@ -110,10 +134,10 @@
 ### GET /api/business/:id/reviews
 - Returns: —
 
-### GET /api/business/list-all
+### GET /api/business/stores/:id/list-all
 - Returns: —
 
-### GET /api/business/stores/:id/list-all
+### PATCH /api/business/resubmit-document
 - Returns: —
 
 ### PATCH /api/business/:id/toggle-is-open-status
@@ -126,6 +150,9 @@
 - Returns: —
 
 ### GET /api/cart/:id
+- Returns: —
+
+### PUT /api/cart/:id/item
 - Returns: —
 
 ### PUT /api/cart/:id/item-dupliate
@@ -149,6 +176,9 @@
 ### GET /api/coupons/:id
 - Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
+### GET /api/coupons/:id/users
+- Returns: [CouponUsageDTO](./dtos/CouponUsageDTO.md) [ ]
+
 ### PUT /api/coupons/:id
 - Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
@@ -166,6 +196,12 @@
 
 ### GET /api/favourites/meals
 - Returns: —
+
+### GET /api/meal/meal
+- Returns: —
+
+### GET /api/meal/meal-category
+- Returns: [MealCategoryDTO](./dtos/MealCategoryDTO.md) [ ]
 
 ### POST /api/meal/create
 - Returns: [MealDTO](./dtos/MealDTO.md) 
@@ -239,14 +275,11 @@
 ### GET /api/meal/meal-option/:id
 - Returns: [MealOptionDTO](./dtos/MealOptionDTO.md) 
 
-### GET /api/meal/meal
-- Returns: —
-
 ### GET /api/meal/meal/:id
 - Returns: [MealDTO](./dtos/MealDTO.md) 
 
-### GET /api/meal/meal-category
-- Returns: [MealCategoryDTO](./dtos/MealCategoryDTO.md) [ ]
+### GET /api/meal/home-filter
+- Returns: —
 
 ### GET /api/misc/health
 - Returns: —
@@ -320,14 +353,14 @@
 ### GET /api/reports/report-reasons
 - Returns: [ReportReasonDTO](./dtos/ReportReasonDTO.md) [ ]
 
-### GET /api/rider/requests
-- Returns: —
-
 ### GET /api/rider/requests/:id
 - Returns: [RiderRequestDTO](./dtos/RiderRequestDTO.md) 
 
 ### GET /api/rider/personal-info
 - Returns: ⚠️ RiderPersonalInfoDTO (not documented)
+
+### GET /api/rider/requests
+- Returns: —
 
 ### POST /api/rider/requests/:id/accept
 - Returns: [OrderDTO](./dtos/OrderDTO.md) 
@@ -351,6 +384,9 @@
 - Returns: —
 
 ### GET /api/share/referral/:id
+- Returns: —
+
+### GET /api/share/meal/:id
 - Returns: —
 
 ### GET /api/transaction/list-banks

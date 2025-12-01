@@ -6,6 +6,7 @@
 |----------|------|-------------|
 | `id` | string | - |
 | `name` | string | - |
+| `code` | string | - |
 | `description` | string \| null | - |
 | `preparationTime` | string \| null | - |
 | `price` | number | - |
