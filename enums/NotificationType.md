@@ -29,8 +29,10 @@
 | `// Wallet notifications
   WALLET_CREDITED` | `wallet_credited` |
 | `WALLET_DEBITED` | `wallet_debited` |
+| `WITHDRAWAL_PENDING` | `withdrawal_pending` |
 | `WITHDRAWAL_PROCESSED` | `withdrawal_processed` |
 | `WITHDRAWAL_FAILED` | `withdrawal_failed` |
+| `WITHDRAWAL_REVERSED` | `withdrawal_reversed` |
 | `// Rider notifications
   RIDER_VERIFIED` | `rider_verified` |
 | `RIDER_REJECTED` | `rider_rejected` |

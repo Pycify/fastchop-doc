@@ -134,7 +134,7 @@
 ### GET /api/business/:id/reviews
 - Returns: —
 
-### GET /api/business/stores/:id/list-all
+### GET /api/business/stores/list-all
 - Returns: —
 
 ### PATCH /api/business/resubmit-document

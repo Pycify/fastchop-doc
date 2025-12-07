@@ -7,13 +7,15 @@
 | `event` | string | - |
 | `data` | { | - |
 | `id` | number | - |
-| `status` | 'success' \| 'failed' \| 'pending' | - |
+| `status` | 'success' \| 'failed' \| 'pending' \| 'reversed' | - |
 | `reference` | string | - |
 | `amount` | number | - |
 | `currency` | string | - |
 | `paidAt` | string | - |
 | `createdAt` | string | - |
 | `channel` | string | - |
+| `transfer_code` | string | - |
+| `reason` | string | - |
 | `fees` | number \| null | - |
 | `metadata` | [PaymentMetaData](../interfaces/PaymentMetaData.md) | - |
 | `authorization` | { | - |

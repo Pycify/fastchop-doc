@@ -13,6 +13,7 @@
 | `paymentMethod` | string | - |
 | `paymentStatus` | string | - |
 | `subtotal` | number | - |
+| `transactionId` | string \| null | - |
 | `deliveryFee` | number | - |
 | `totalAmount` | number | - |
 | `discountAmount` | number | - |

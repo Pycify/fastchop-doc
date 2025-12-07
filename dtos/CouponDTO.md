@@ -12,6 +12,8 @@ Coupon Data Transfer Object
 | `description` | string \| null | - |
 | `bonusType` | [CouponBonusType](../enums/CouponBonusType.md) | Enum: `percentage`, `fixed` |
 | `reward` | number | - |
+| `totalPayout` | number | - |
+| `currency` | string | - |
 | `maximumRedemptions` | number | - |
 | `currentRedemptions` | number | - |
 | `unit` | [CouponUnit](../enums/CouponUnit.md) | Enum: `NGN`, `%` |

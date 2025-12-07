@@ -89,6 +89,7 @@
 - [UserResponseDTO](./dtos/UserResponseDTO.md)
 - [VendorSuggestionDTO](./dtos/VendorSuggestionDTO.md)
 - [RiderVerificationDTO](./dtos/RiderVerificationDTO.md)
+- [WalletWithdrawalDTO](./dtos/WalletWithdrawalDTO.md)
 
 ## Interfaces
 
@@ -117,6 +118,7 @@
 - [PaystackTransaction](./interfaces/PaystackTransaction.md)
 - [PaystackBank](./interfaces/PaystackBank.md)
 - [PaystackBankAccount](./interfaces/PaystackBankAccount.md)
+- [PaystackInitiateTransfer](./interfaces/PaystackInitiateTransfer.md)
 - [PaystackRecipientDetails](./interfaces/PaystackRecipientDetails.md)
 - [PaystackRecipient](./interfaces/PaystackRecipient.md)
 - [PaystackWebhookEvent](./interfaces/PaystackWebhookEvent.md)
@@ -133,6 +135,7 @@
 ## Enums
 
 - [UserType](./enums/UserType.md)
+- [ApplicationType](./enums/ApplicationType.md)
 - [RegisterSource](./enums/RegisterSource.md)
 - [MediaType](./enums/MediaType.md)
 - [MessagingTokenPlatform](./enums/MessagingTokenPlatform.md)
@@ -179,4 +182,5 @@
 - [AppType](./enums/AppType.md)
 - [Platform](./enums/Platform.md)
 - [HomePageFilter](./enums/HomePageFilter.md)
+- [WalletWithdrawalStatus](./enums/WalletWithdrawalStatus.md)
 - [ReferralStatus](./enums/ReferralStatus.md)

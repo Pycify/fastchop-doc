@@ -5,10 +5,10 @@
 | Property | Type | Description |
 |----------|------|-------------|
 | `id` | string | - |
-| `createdAt` | DateTime | - |
-| `updatedAt` | DateTime | - |
 | `owner` | [UserDTO](../dtos/UserDTO.md) | - |
+| `currency` | string | - |
+| `grandTotalAmount` | number | - |
 | `kitchen` | [VendorBusinessDTO](../dtos/VendorBusinessDTO.md) | - |
 | `items` | [CartItemDTO](../dtos/CartItemDTO.md)[] | - |
-| `grandTotalAmount` | number | - |
-| `currency` | string | - |
+| `createdAt` | DateTime | - |
+| `updatedAt` | DateTime | - |
