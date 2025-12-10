@@ -4,6 +4,8 @@
 |-----|--------|
 | `PENDING` | `pending` |
 | `ORDER_ACCEPTED` | `order_accepted` |
+| `AWAITING_USER_CONFIRMATION` | `awaiting_user_confirmation` |
+| `USER_CONFIRMED` | `user_confirmed` |
 | `MARK_AS_STARTED` | `mark_as_started` |
 | `READY_FOR_PICKUP` | `ready_for_pickup` |
 | `AWAITING_RIDER` | `awaiting_rider` |

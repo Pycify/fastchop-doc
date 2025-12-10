@@ -8,7 +8,7 @@
 | `orderId` | string | - |
 | `cancelledBy` | ActionDoneBy | - |
 | `reason` | string | - |
-| `cancelledByRole` | [CancelledByRole](../enums/CancelledByRole.md) | Enum: `customer`, `vendor`, `admin` |
+| `cancelledByRole` | [CancellationInitiator](../enums/CancellationInitiator.md) | Enum: `admin`, `vendor`, `customer` |
 | `refundStatus` | [RefundStatus](../enums/RefundStatus.md) \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

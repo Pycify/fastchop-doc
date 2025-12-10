@@ -36,5 +36,6 @@
 | `inTransit` | [OrderInTransitDTO](../dtos/OrderInTransitDTO.md) \| null | - |
 | `orderTimeline` | Partial<Record<OrderStatus, DateTime \| null>> | - |
 | `orderReview` | [ReviewDTO](../dtos/ReviewDTO.md) \| null | - |
+| `unavailableExtras` | [OrderUnavailableExtrasDTO](../dtos/OrderUnavailableExtrasDTO.md) \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

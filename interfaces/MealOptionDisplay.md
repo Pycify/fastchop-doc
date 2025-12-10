@@ -6,4 +6,4 @@
 |----------|------|-------------|
 | `id` | string | - |
 | `name` | string | - |
-| `optionItem` | [MealItemDisplay](../interfaces/MealItemDisplay.md)[] | - |
+| `optionItem` | [ItemDisplay](../interfaces/ItemDisplay.md)[] | - |

@@ -7,7 +7,6 @@
 | `id` | string | - |
 | `reason` | string | - |
 | `mealId` | string | - |
-| `meal` | string | - |
 | `flagger` | ActionDoneBy | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |

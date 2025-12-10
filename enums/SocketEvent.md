@@ -18,6 +18,12 @@
 | `ORDER_CARD_PAYMENT` | `order_card_payment` |
 | `// Notification
   UNREAD_NOTIFICATION_COUNT` | `unread_notification_count` |
+| `// Referral
+  REFERRAL_USED` | `referral:used` |
+| `REFERRAL_REWARD` | `referral:reward` |
+| `// Suspension
+  ACCOUNT_SUSPENDED` | `account:suspended` |
+| `ACCOUNT_REACTIVATED` | `account:reactivated` |
 | `// Health
   PING` | `ping` |
 | `// Errors

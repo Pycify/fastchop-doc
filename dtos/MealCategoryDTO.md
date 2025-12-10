@@ -10,4 +10,3 @@
 | `imageUrl` | string | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
-| `svg` | string | - |

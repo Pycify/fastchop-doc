@@ -6,6 +6,8 @@
   ORDER_PLACED` | `order_placed` |
 | `ORDER_ACCEPTED` | `order_accepted` |
 | `ORDER_PREPARING` | `order_preparing` |
+| `ORDER_UNAVAILABLE_EXTRAS` | `order_unavailable_extras` |
+| `ORDER_USER_CONFIRMED` | `order_user_confirmed` |
 | `ORDER_READY` | `order_ready` |
 | `ORDER_AWAITING_RIDER` | `order_awaiting_rider` |
 | `ORDER_ACCEPTED_BY_RIDER` | `order_accepted_by_rider` |
@@ -36,8 +38,12 @@
 | `// Rider notifications
   RIDER_VERIFIED` | `rider_verified` |
 | `RIDER_REJECTED` | `rider_rejected` |
+| `// Referral notifications
+  REFERRAL_USED` | `referral_used` |
+| `REFERRAL_REWARD` | `referral_reward` |
 | `// System notifications
   ACCOUNT_VERIFIED` | `account_verified` |
+| `ACCOUNT_REACTIVATED` | `account_reactivated` |
 | `ACCOUNT_SUSPENDED` | `account_suspended` |
 | `PASSWORD_CHANGED` | `password_changed` |
 | `PROMO_ANNOUNCEMENT` | `promo_announcement` |
