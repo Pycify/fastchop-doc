@@ -19,11 +19,11 @@
 | `// Notification
   UNREAD_NOTIFICATION_COUNT` | `unread_notification_count` |
 | `// Referral
-  REFERRAL_USED` | `referral:used` |
-| `REFERRAL_REWARD` | `referral:reward` |
+  REFERRAL_USED` | `referral_used` |
+| `REFERRAL_REWARD` | `referral_reward` |
 | `// Suspension
-  ACCOUNT_SUSPENDED` | `account:suspended` |
-| `ACCOUNT_REACTIVATED` | `account:reactivated` |
+  ACCOUNT_SUSPENDED` | `account_suspended` |
+| `ACCOUNT_REACTIVATED` | `account_reactivated` |
 | `// Health
   PING` | `ping` |
 | `// Errors

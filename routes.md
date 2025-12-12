@@ -44,7 +44,7 @@
 ### GET /api/admin/bulk-communications/:id/recipients
 - Returns: [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md) [ ]
 
-### POST /api/admin/bulk-communications/:id/retry-failed
+### PATCH /api/admin/bulk-communications/:id/retry-failed
 - Returns: —
 
 ### GET /api/admin/dashboard/analytics

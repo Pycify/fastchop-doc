@@ -15,6 +15,7 @@
 | `failedCount` | number | - |
 | `deliveredCount` | number | - |
 | `status` | [CommunicationStatus](../enums/CommunicationStatus.md) | Enum: `pending`, `processing`, `completed`, `failed`, `partially_completed` |
+| `image` | [MediaDTO](../dtos/MediaDTO.md) \| null | - |
 | `successRate` | number | - |
 | `scheduledAt` | DateTime \| null | - |
 | `startedAt` | DateTime \| null | - |

@@ -35,6 +35,7 @@
 | `storeManagers` | ActionDoneBy[] | - |
 | `connectedStores` | [VendorSmallBusinessDTO](../dtos/VendorSmallBusinessDTO.md)[] | - |
 | `minMaxPrepTime` | string | - |
+| `totalCartAmount` | number \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `rating` | data.reviews.length > 0 | - |
