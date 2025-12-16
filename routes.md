@@ -44,7 +44,7 @@
 ### GET /api/admin/bulk-communications/:id/recipients
 - Returns: [BulkCommunicationRecipientDTO](./dtos/BulkCommunicationRecipientDTO.md) [ ]
 
-### PATCH /api/admin/bulk-communications/:id/retry-failed
+### POST /api/admin/bulk-communications/:id/retry-failed
 - Returns: —
 
 ### GET /api/admin/dashboard/analytics
@@ -102,7 +102,7 @@
 - Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
 
 ### PUT /api/admin/verification/business/:id/update
-- Returns: [VendorBusinessVerificationDTO](./dtos/VendorBusinessVerificationDTO.md) 
+- Returns: [VendorBusinessVerificationDTO](./dtos/VendorBusinessVerificationDTO.md) [ ]
 
 ### PUT /api/admin/verification/rider/:id/update
 - Returns: [RiderVerificationDTO](./dtos/RiderVerificationDTO.md) 
@@ -185,7 +185,13 @@
 ### POST /api/coupons/:id/cancel
 - Returns: [CouponDTO](./dtos/CouponDTO.md) 
 
-### GET //link
+### GET //customer
+- Returns: —
+
+### GET //vendor
+- Returns: —
+
+### GET //delivery
 - Returns: —
 
 ### POST /api/favourites/toggle
@@ -335,6 +341,9 @@
 ### DELETE /api/notifications/:id
 - Returns: —
 
+### POST /api/notifications//send
+- Returns: —
+
 ### GET /api/order/index
 - Returns: —
 
@@ -415,9 +424,6 @@
 
 ### PATCH /api/user/edit
 - Returns: [UserDTO](./dtos/UserDTO.md) 
-
-### PATCH /api/user/update-messaging-token
-- Returns: —
 
 ### DELETE /api/vendor-suggestions/:id
 - Returns: —
