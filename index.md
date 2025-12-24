@@ -133,7 +133,7 @@
 - [BiometricVerifyDTO](./interfaces/BiometricVerifyDTO.md)
 - [OtpCreationResult](./interfaces/OtpCreationResult.md)
 - [VendorRating](./interfaces/VendorRating.md)
-- [UserIndicator](./interfaces/UserIndicator.md)
+- [UserCartAndOrderIndicator](./interfaces/UserCartAndOrderIndicator.md)
 - [UserAccountVerification](./interfaces/UserAccountVerification.md)
 
 ## Enums
