@@ -14,6 +14,7 @@
 | `email` | string \| null | - |
 | `isOpenStatus` | boolean | - |
 | `isDefault` | boolean | - |
+| `minDeliveryFee` | number | - |
 | `isCurrentSelected` | boolean | - |
 | `storeStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `setupStep` | [VendorSetupStep](../enums/VendorSetupStep.md) \| null | - |

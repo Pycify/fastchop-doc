@@ -15,6 +15,7 @@
 | `ORDER_IN_TRANSIT` | `order_in_transit` |
 | `ORDER_DELIVERED` | `order_delivered` |
 | `ORDER_CANCELLED` | `order_cancelled` |
+| `ORDER_AUTO_COMPLETED` | `order_auto_completed` |
 | `RIDER_REQUEST` | `rider_request` |
 | `// Meal notifications
   MEAL_FLAGGED` | `meal_flagged` |
@@ -41,6 +42,9 @@
 | `// Referral notifications
   REFERRAL_USED` | `referral_used` |
 | `REFERRAL_REWARD` | `referral_reward` |
+| `// Store Opening or Closing
+  STORE_OPENING` | `store_opening` |
+| `STORE_CLOSNG` | `store_closing` |
 | `// System notifications
   ACCOUNT_VERIFIED` | `account_verified` |
 | `ACCOUNT_REACTIVATED` | `account_reactivated` |

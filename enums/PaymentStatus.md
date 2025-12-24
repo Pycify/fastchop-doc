@@ -6,3 +6,4 @@
 | `COMPLETED` | `completed` |
 | `FAILED` | `failed` |
 | `REFUNDED` | `refunded` |
+| `REVERSED` | `reversed` |

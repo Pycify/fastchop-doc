@@ -23,6 +23,7 @@
 | `storeStatus` | [SuspensionStatus](../enums/SuspensionStatus.md) | Enum: `active`, `suspended` |
 | `verificationInfo` | [UserAccountVerification](../interfaces/UserAccountVerification.md) | - |
 | `fromAmount` | number | - |
+| `minDeliveryFee` | number | - |
 | `currency` | string | - |
 | `shareUrl` | string \| null | - |
 | `ratings` | [VendorRating](../interfaces/VendorRating.md) | - |
@@ -36,6 +37,7 @@
 | `connectedStores` | [VendorSmallBusinessDTO](../dtos/VendorSmallBusinessDTO.md)[] | - |
 | `minMaxPrepTime` | string | - |
 | `totalCartAmount` | number \| null | - |
+| `cartInfo` | [CartInfo](../interfaces/CartInfo.md) \| null | - |
 | `createdAt` | DateTime | - |
 | `updatedAt` | DateTime | - |
 | `rating` | data.reviews.length > 0 | - |

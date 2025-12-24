@@ -9,4 +9,5 @@
 | `ORDER_CANCELLATION` | `order_cancellation` |
 | `ORDER_ACCEPTED` | `order_accepted` |
 | `WALLET_CREDIT_PAYMENT` | `wallet_credit_payment` |
+| `WALLET_FAILED_WITHDRAWAL` | `wallet_failed_withdrawal` |
 | `WALLET_WITHDRAWAL` | `wallet_withdrawal` |

@@ -81,6 +81,7 @@
 - [MiniRiderRequestDTO](./dtos/MiniRiderRequestDTO.md)
 - [AccountSuspensionDTO](./dtos/AccountSuspensionDTO.md)
 - [SuspensionStatusDTO](./dtos/SuspensionStatusDTO.md)
+- [CardTransactionDTO](./dtos/CardTransactionDTO.md)
 - [WalletTransactionDTO](./dtos/WalletTransactionDTO.md)
 - [OTPSendResponseDTO](./dtos/OTPSendResponseDTO.md)
 - [SavedLocationDTO](./dtos/SavedLocationDTO.md)
@@ -96,6 +97,7 @@
 
 - [AnalyticMetricDTO](./interfaces/AnalyticMetricDTO.md)
 - [BiometricChallengeDTO](./interfaces/BiometricChallengeDTO.md)
+- [CartInfo](./interfaces/CartInfo.md)
 - [ItemDisplay](./interfaces/ItemDisplay.md)
 - [MealOptionDisplay](./interfaces/MealOptionDisplay.md)
 - [AutocompleteResponse](./interfaces/AutocompleteResponse.md)

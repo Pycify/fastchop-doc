@@ -7,6 +7,7 @@
 | `id` | string | - |
 | `orderNumber` | string | - |
 | `vendorName` | string | - |
+| `customerName` | string | - |
 | `status` | [RiderRequestStatus](../enums/RiderRequestStatus.md) | Enum: `pending`, `accepted`, `rejected`, `expired`, `cancelled` |
 | `estimatedEarnings` | number | - |
 | `deliveryFee` | number | - |

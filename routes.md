@@ -95,6 +95,9 @@
 ### GET /api/admin/user-management/rider-deliveries/:id
 - Returns: —
 
+### DELETE /api/admin/user-management/businesses/:id
+- Returns: —
+
 ### GET /api/admin/verification/business/:id
 - Returns: [VendorBusinessVerificationDTO](./dtos/VendorBusinessVerificationDTO.md) 
 
@@ -109,9 +112,6 @@
 
 ### GET /api/analytics/top-selling-meals
 - Returns: —
-
-### GET /api/analytics/rider
-- Returns: [RiderAnalyticsDTO](./dtos/RiderAnalyticsDTO.md) 
 
 ### POST /api/biometric/register
 - Returns: —
@@ -145,6 +145,12 @@
 
 ### PUT /api/business/:id/switch
 - Returns: [VendorBusinessDTO](./dtos/VendorBusinessDTO.md) 
+
+### GET /api/card-transaction/list
+- Returns: —
+
+### GET /api/card-transaction/:id
+- Returns: —
 
 ### GET /api/cart/index
 - Returns: —
@@ -324,9 +330,6 @@
 - Returns: —
 
 ### POST /api/misc/check-app-versions
-- Returns: —
-
-### GET /api/notifications/unread-count
 - Returns: —
 
 ### PATCH /api/notifications/:id/read
