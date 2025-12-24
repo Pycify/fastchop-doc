@@ -18,12 +18,19 @@
 | `ORDER_CARD_PAYMENT` | `order_card_payment` |
 | `// Notification
   UNREAD_NOTIFICATION_COUNT` | `unread_notification_count` |
+| `CART_AND_ORDER_INDICATOR` | `cart_and_order_indicator` |
 | `// Referral
   REFERRAL_USED` | `referral_used` |
 | `REFERRAL_REWARD` | `referral_reward` |
 | `// Suspension
   ACCOUNT_SUSPENDED` | `account_suspended` |
 | `ACCOUNT_REACTIVATED` | `account_reactivated` |
+| `// App Rate
+  RATE_APP_PROMPT` | `rate_app_prompt` |
+| `CHECK_RATE_APP` | `check_rate_app` |
+| `MARK_APP_RATED` | `mark_app_rated` |
+| `//TODO
+  TEST_APP_RATING` | `test_app_rating` |
 | `// Health
   PING` | `ping` |
 | `// Errors
