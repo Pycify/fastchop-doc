@@ -8,3 +8,4 @@
 | `paymentMethod` | [PaymentMethod](../enums/PaymentMethod.md) \| null | - |
 | `userId` | string | - |
 | `businessId` | string | - |
+| `description` | string | - |

@@ -6,6 +6,7 @@
 |----------|------|-------------|
 | `id` | string | - |
 | `reference` | string | - |
+| `description` | string | - |
 | `amount` | number | - |
 | `currency` | string | - |
 | `status` | [PaymentStatus](../enums/PaymentStatus.md) | Enum: `pending`, `completed`, `failed`, `refunded`, `reversed` |
